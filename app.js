@@ -11,7 +11,7 @@ app.set("trust proxy", true);
 
 app.use(
   cors({
-    origin: "https://www.btqtest.netlify.app",
+    origin: "https://btqtest.netlify.app",
     allowedHeaders: "*",
      allowMethods: "*"
   })
